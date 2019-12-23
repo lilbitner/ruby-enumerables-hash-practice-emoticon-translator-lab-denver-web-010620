@@ -1,13 +1,27 @@
-# require modules here
+require "yaml"
+require "pry"
 
 def load_library
-  # code goes here
+emoticons = YAML.load('emoticons.yml')
+emoticons
 end
 
-def get_japanese_emoticon
-  # code goes here
+
+# def get_japanese_emoticon(western)
+# # :get_emoticon.find do |emoticon|  
+# #   :get_emoticon 
+# :get_emoticon[western]
+ 
+  
+# end
+ 
+
+
+def get_english_meaning(row_index,column_index)
+  column_index= 2
+  load_library.find[index] = value
+  new_value = load_library.find[index -1]
+  value = new_value
+  puts new_value 
 end
 
-def get_english_meaning
-  # code goes here
-end
